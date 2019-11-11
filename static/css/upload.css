@@ -1,0 +1,21 @@
+body
+{
+	background-color: white;
+}
+#mainH
+{
+	position:absolute;
+	left:30%;
+	color: blue;
+	font-size:20px;
+	background-color: white;
+}
+#myBoy
+{
+	position:absolute;
+	left:30%;
+	top:70%;
+	width:45%;
+	height:20%;
+	background-color: blue;
+}

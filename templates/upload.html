@@ -1,0 +1,37 @@
+<!doctype html>
+ <head>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/upload.css') }}">
+{{ dropzone.load_css() }}
+<title>Python Flask File Upload Example</title>
+<head>
+<body>
+<h2 id="mainH">Select a file to upload</h2>
+
+<!--{{ dropzone.create(action='/') }}
+{{ dropzone.style('border: 2px dashed #0087F7; margin: 10%; min-height: 400px;') }}
+-->
+
+<form method="post" action="/" enctype="multipart/form-data">
+    <dl>
+		<p>
+			<input type="file" name="file" autocomplete="off" required>
+		</p>
+    </dl>
+    <p>
+		<input type="submit" value="Submit">
+	</p>
+</form>
+
+{{ dropzone.load_js() }}
+<p id="myBoy">asd
+	{% with messages = get_flashed_messages() %}
+	  {% if messages %}
+		<ul class=flashes>
+		{% for message in messages %}
+		  <li>{{ message }}</li>
+		{% endfor %}
+		</ul>
+	  {% endif %}
+	{% endwith %}
+</p>
+</body>

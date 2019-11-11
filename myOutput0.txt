@@ -1,0 +1,18 @@
+------------------------
+Informatii importante
+Nr.fact:152
+Data facturii:28/08/2017
+
+Pret 71.43
+TVA 13.57
+Total 85.0
+
+Cota TVA:19.0
+---------------------------------
+Informatii mai putin importante
+Adresa: St. Lunga 5, Siu, Jud: Sibi
+----------------------------------
+Informatii pe bucata
+N; Denumirea produselor sau a servicilor UM Cant gf rumitar —Valoaren vA
+1 Constanta optimizare procese ore 1 437143, 1357
+Intocmit de: Corina Frail ‘Semnatua sistampila Total 71.43 1357
