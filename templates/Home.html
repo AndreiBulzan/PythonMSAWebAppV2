@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
- <link rel="stylesheet" href="Home.css">
+<!-- <link rel="stylesheet" href="Home.css"> -->
+<link rel="stylesheet" href="{{ url_for('static', filename='css/Home.css') }}">
 </head>
 
 <body>
-<div id="testButton">Test now
+<div id="testButton"><a href="{{ url_for('upload_form1') }}">Test now</a>
 </div>
 <div id="detectText">
 Detect important data
