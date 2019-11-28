@@ -20,9 +20,13 @@ def downloadFile ():
     return send_file(path, as_attachment=True)    
 @app.route('/')
 def upload_form():
-    return render_template('upload.html')
+    return render_template('home.html')
+@app.route('/upload')    
+def upload_form1():
+    return render_template('upload.html')    
 
-@app.route('/', methods=['POST'])
+
+@app.route('/upload', methods=['POST'])
 def upload_file():
     if request.method == 'POST':
         # check if the post request has the file part
